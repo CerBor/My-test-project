@@ -26,6 +26,7 @@ class PlayState extends FlxUIState
 {
 	public var symbols:FlxSpriteGroup;
 	public var textInput:FlxUIInputText;
+
 	public var DEFAULT_TEXT:String = "test text";
 
 	override public function create()
@@ -55,10 +56,10 @@ class PlayState extends FlxUIState
 
 	function addSongBox()
 	{
-		var tabs = [{name: 'Main', label: 'Main'},];
+		var tabs = [{name: 'Week Editor', label: 'Week Editor'}];
 		UI_box = new FlxUITabMenu(null, tabs, true);
 		UI_box.resize(230, 100);
-		UI_box.x = FlxG.width - UI_box.width - 250 - 20;
+		UI_box.x = FlxG.width - UI_box.width - 40;
 		UI_box.y = 10;
 		UI_box.scrollFactor.set();
 		UI_box.alpha = 0.8;
@@ -76,7 +77,7 @@ class PlayState extends FlxUIState
 	function addSongUI()
 	{
 		var tab_group = new FlxUI(null, UI_box);
-		tab_group.name = "Main";
+		tab_group.name = "Week Editor";
 
 		weekInput = new FlxUIInputText(10, 30, 80, null, 8);
 
@@ -91,7 +92,7 @@ class PlayState extends FlxUIState
 
 		saveBtn = new FlxButton(130, 25, "Save image", function()
 		{
-			// Here, I need help with getting bitmap data of symbols
+			// Here, I need your help with getting bitmap data of all symbols
 			// saveImage(<data here>);
 		});
 
@@ -127,7 +128,7 @@ class PlayState extends FlxUIState
 		}
 	}
 
-	function writeText(text:String, x:Float = 0, y:Float = 0, overrideText:Bool = false)
+	function writeText(text:String, x:Float = 0, y:Float = 0, overrideText:Bool = false):Array<FlxSprite>
 	{
 		var idk:Array<FlxSprite> = [];
 		if (overrideText)
@@ -151,6 +152,7 @@ class PlayState extends FlxUIState
 			symbols.add(idk[idk.length - 1]);
 		}
 		symbols.screenCenter(FlxAxes.XY);
+		return idk;
 	}
 
 	function createSymbol(char:String, x:Float = 0, y:Float = 0):FlxSprite
@@ -160,7 +162,7 @@ class PlayState extends FlxUIState
 			'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'
 		];
 		var numbers:Array<String> = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
-		var symbols:Array<String> = ['@', '-', "'", '"', '.', ',', '?', '!', '$', '♪'];
+		var symbols:Array<String> = ['@', '-', "'", '"', '.', ',', ':', '?', '!', '$', '♪', '♥'];
 		var animationName:String = '@'; // @ by default
 		if (words.contains(char) || numbers.contains(char))
 			animationName = char;
@@ -173,6 +175,8 @@ class PlayState extends FlxUIState
 			animationName = "double quotation mark";
 		if (char == '.')
 			animationName = "dot";
+		if (char == ':')
+			animationName = "double dot";
 		if (char == '?')
 			animationName = "question mark";
 		if (char == '!')
