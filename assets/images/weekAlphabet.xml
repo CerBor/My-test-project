@@ -2,46 +2,52 @@
 <TextureAtlas imagePath="weekAlphabet.png">
 	<!-- Created with Adobe Animate version 19.0.0.326 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="0.png" x="0" y="0" width="68" height="79" pivotX="0" pivotY="0"/>
-	<SubTexture name="1.png" x="69" y="0" width="61" height="89" pivotX="0" pivotY="0"/>
-	<SubTexture name="2.png" x="131" y="0" width="73" height="89" pivotX="0" pivotY="0"/>
-	<SubTexture name="3.png" x="205" y="0" width="74" height="89" pivotX="0" pivotY="0"/>
-	<SubTexture name="4.png" x="280" y="0" width="65" height="88" pivotX="0" pivotY="0"/>
-	<SubTexture name="5.png" x="346" y="0" width="78" height="91" pivotX="0" pivotY="0"/>
-	<SubTexture name="6.png" x="425" y="0" width="71" height="92" pivotX="0" pivotY="0"/>
-	<SubTexture name="7.png" x="497" y="0" width="71" height="92" pivotX="0" pivotY="0"/>
-	<SubTexture name="8.png" x="569" y="0" width="71" height="92" pivotX="0" pivotY="0"/>
-	<SubTexture name="9.png" x="641" y="0" width="71" height="92" pivotX="0" pivotY="0"/>
-	<SubTexture name="@.png" x="713" y="0" width="68" height="79" pivotX="0" pivotY="0"/>
-	<SubTexture name="A.png" x="782" y="0" width="47" height="64" pivotX="0" pivotY="0"/>
-	<SubTexture name="B.png" x="830" y="0" width="45" height="62" pivotX="0" pivotY="0"/>
-	<SubTexture name="C.png" x="876" y="0" width="66" height="85" pivotX="0" pivotY="0"/>
-	<SubTexture name="D.png" x="943" y="0" width="53" height="67" pivotX="0" pivotY="0"/>
-	<SubTexture name="E.png" x="0" y="93" width="52" height="65" pivotX="0" pivotY="0"/>
-	<SubTexture name="F.png" x="53" y="93" width="45" height="67" pivotX="0" pivotY="0"/>
-	<SubTexture name="G.png" x="99" y="93" width="73" height="88" pivotX="0" pivotY="0"/>
-	<SubTexture name="H.png" x="173" y="93" width="53" height="67" pivotX="0" pivotY="0"/>
-	<SubTexture name="I.png" x="227" y="93" width="38" height="91" pivotX="0" pivotY="0"/>
-	<SubTexture name="J.png" x="266" y="93" width="65" height="77" pivotX="0" pivotY="0"/>
-	<SubTexture name="K.png" x="332" y="93" width="41" height="66" pivotX="0" pivotY="0"/>
-	<SubTexture name="L.png" x="374" y="93" width="44" height="65" pivotX="0" pivotY="0"/>
-	<SubTexture name="M.png" x="419" y="93" width="58" height="66" pivotX="0" pivotY="0"/>
-	<SubTexture name="N.png" x="478" y="93" width="51" height="65" pivotX="0" pivotY="0"/>
-	<SubTexture name="O.png" x="530" y="93" width="44" height="67" pivotX="0" pivotY="0"/>
-	<SubTexture name="P.png" x="575" y="93" width="65" height="77" pivotX="0" pivotY="0"/>
-	<SubTexture name="Q.png" x="641" y="93" width="49" height="72" pivotX="0" pivotY="0"/>
-	<SubTexture name="R.png" x="691" y="93" width="48" height="67" pivotX="0" pivotY="0"/>
-	<SubTexture name="S.png" x="740" y="93" width="43" height="63" pivotX="0" pivotY="0"/>
-	<SubTexture name="T.png" x="784" y="93" width="65" height="77" pivotX="0" pivotY="0"/>
-	<SubTexture name="U.png" x="850" y="93" width="55" height="65" pivotX="0" pivotY="0"/>
-	<SubTexture name="V.png" x="906" y="93" width="65" height="77" pivotX="0" pivotY="0"/>
-	<SubTexture name="W.png" x="0" y="185" width="95" height="76" pivotX="0" pivotY="0"/>
-	<SubTexture name="X.png" x="96" y="185" width="68" height="77" pivotX="0" pivotY="0"/>
-	<SubTexture name="Y.png" x="165" y="185" width="46" height="65" pivotX="0" pivotY="0"/>
-	<SubTexture name="Z.png" x="212" y="185" width="46" height="65" pivotX="0" pivotY="0"/>
-	<SubTexture name="dot.png" x="259" y="185" width="46" height="65" pivotX="0" pivotY="0"/>
-	<SubTexture name="double quotation mark.png" x="306" y="185" width="68" height="79" pivotX="0" pivotY="0"/>
-	<SubTexture name="exclamation point.png" x="375" y="185" width="46" height="65" pivotX="0" pivotY="0"/>
-	<SubTexture name="question mark.png" x="422" y="185" width="46" height="65" pivotX="0" pivotY="0"/>
-	<SubTexture name="quotation mark.png" x="469" y="185" width="68" height="79" pivotX="0" pivotY="0"/>
+	<SubTexture name="$0000" x="0" y="0" width="43" height="58" pivotX="0" pivotY="0"/>
+	<SubTexture name=",0000" x="44" y="0" width="31" height="66" pivotX="1.55" pivotY="0"/>
+	<SubTexture name="-0000" x="76" y="0" width="28" height="66" pivotX="4.5" pivotY="0"/>
+	<SubTexture name="00000" x="105" y="0" width="56" height="79" pivotX="0" pivotY="0"/>
+	<SubTexture name="10000" x="162" y="0" width="63" height="79" pivotX="0" pivotY="0"/>
+	<SubTexture name="20000" x="226" y="0" width="77" height="79" pivotX="0" pivotY="0"/>
+	<SubTexture name="30000" x="304" y="0" width="73" height="79" pivotX="0" pivotY="0"/>
+	<SubTexture name="40000" x="378" y="0" width="66" height="79" pivotX="0" pivotY="0"/>
+	<SubTexture name="50000" x="0" y="80" width="80" height="79" pivotX="0" pivotY="0"/>
+	<SubTexture name="60000" x="81" y="80" width="72" height="79" pivotX="0" pivotY="0"/>
+	<SubTexture name="70000" x="154" y="80" width="67" height="79" pivotX="0" pivotY="0"/>
+	<SubTexture name="80000" x="222" y="80" width="69" height="79" pivotX="0" pivotY="0"/>
+	<SubTexture name="90000" x="292" y="80" width="72" height="79" pivotX="0" pivotY="0"/>
+	<SubTexture name="@0000" x="365" y="80" width="64" height="66" pivotX="0" pivotY="0"/>
+	<SubTexture name="A0000" x="430" y="80" width="48" height="66" pivotX="0" pivotY="0"/>
+	<SubTexture name="B0000" x="0" y="160" width="45" height="63" pivotX="0" pivotY="0"/>
+	<SubTexture name="C0000" x="46" y="160" width="49" height="64" pivotX="0" pivotY="0"/>
+	<SubTexture name="D0000" x="96" y="160" width="56" height="68" pivotX="0" pivotY="0"/>
+	<SubTexture name="E0000" x="153" y="160" width="55" height="65" pivotX="0" pivotY="0"/>
+	<SubTexture name="F0000" x="209" y="160" width="46" height="67" pivotX="0" pivotY="0"/>
+	<SubTexture name="G0000" x="256" y="160" width="47" height="68" pivotX="0" pivotY="0"/>
+	<SubTexture name="H0000" x="304" y="160" width="56" height="66" pivotX="0" pivotY="0"/>
+	<SubTexture name="I0000" x="361" y="160" width="36" height="65" pivotX="0" pivotY="0"/>
+	<SubTexture name="J0000" x="398" y="160" width="54" height="72" pivotX="0" pivotY="0"/>
+	<SubTexture name="K0000" x="453" y="160" width="43" height="66" pivotX="0" pivotY="0"/>
+	<SubTexture name="L0000" x="0" y="233" width="45" height="65" pivotX="0" pivotY="0"/>
+	<SubTexture name="M0000" x="46" y="233" width="61" height="65" pivotX="0" pivotY="0"/>
+	<SubTexture name="N0000" x="108" y="233" width="52" height="65" pivotX="0" pivotY="0"/>
+	<SubTexture name="O0000" x="161" y="233" width="47" height="69" pivotX="0" pivotY="0"/>
+	<SubTexture name="P0000" x="209" y="233" width="47" height="72" pivotX="0" pivotY="0"/>
+	<SubTexture name="Q0000" x="257" y="233" width="47" height="69" pivotX="0" pivotY="0"/>
+	<SubTexture name="R0000" x="305" y="233" width="51" height="69" pivotX="0" pivotY="0"/>
+	<SubTexture name="S0000" x="357" y="233" width="45" height="67" pivotX="0" pivotY="0"/>
+	<SubTexture name="T0000" x="403" y="233" width="43" height="66" pivotX="0" pivotY="0"/>
+	<SubTexture name="U0000" x="447" y="233" width="53" height="65" pivotX="0" pivotY="0"/>
+	<SubTexture name="V0000" x="0" y="306" width="57" height="68" pivotX="0" pivotY="0"/>
+	<SubTexture name="W0000" x="58" y="306" width="94" height="67" pivotX="0" pivotY="0"/>
+	<SubTexture name="X0000" x="153" y="306" width="66" height="67" pivotX="0" pivotY="0"/>
+	<SubTexture name="Y0000" x="220" y="306" width="49" height="67" pivotX="0" pivotY="0"/>
+	<SubTexture name="Z0000" x="270" y="306" width="49" height="67" pivotX="0" pivotY="0"/>
+	<SubTexture name="dot0000" x="320" y="306" width="30" height="66" pivotX="3.85" pivotY="0"/>
+	<SubTexture name="double dot0000" x="351" y="306" width="71" height="71" pivotX="0" pivotY="0"/>
+	<SubTexture name="double quotation mark0000" x="423" y="306" width="38" height="20" pivotX="0" pivotY="0"/>
+	<SubTexture name="exclamation point0000" x="462" y="306" width="24" height="69" pivotX="-0.05" pivotY="0"/>
+	<SubTexture name="question mark0000" x="0" y="378" width="40" height="69" pivotX="0" pivotY="0"/>
+	<SubTexture name="quotation mark0000" x="41" y="378" width="22" height="21" pivotX="0" pivotY="0"/>
+	<SubTexture name="♥0000" x="64" y="378" width="77" height="74" pivotX="2.4" pivotY="2.15"/>
+	<SubTexture name="♪0000" x="142" y="378" width="46" height="45" pivotX="0" pivotY="0"/>
 </TextureAtlas>
